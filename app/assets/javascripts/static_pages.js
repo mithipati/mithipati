@@ -28,10 +28,10 @@ var zoomShowcaseSettings = {
   randomizeItems: false,
 
   /* The link target when a slide is linked, options are "_parent" and "_blank" */
-  linkTarget: "_blank.",
+  linkTarget: "_blank",
 
   /* The percentage to zoom out the sides, 0-1 */
-  sideZoom: 0.6,
+  sideZoom: 0.7,
 
   /* The percentage to zoom out the back slide, 0-1 */
   backZoom: 0.1
