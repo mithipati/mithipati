@@ -14,3 +14,5 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+//= require jquery.easing.1.3.min.js
+//= require zoom-showcase.js
