@@ -45,10 +45,6 @@ jQuery(document).ready(function() {
 
   jQuery(".zoom-gallery").zoomShowcase(zoomShowcaseSettings);
 
-  $('#lingo').on('click', function (e) {
-    $('#vibeModal').modal();
-  });
-
 
   // ------------------------------------
   // ZOOM SHOWCASE API FOR ADVANCED USERS
