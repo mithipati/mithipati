@@ -21,14 +21,12 @@ gem 'coffee-rails', '~> 4.0.0'
 group :development, :test do
   # Use sqlite3 as the database for Active Record
   # gem 'sqlite3', '1.3.8'
-  gem 'rspec-rails', '2.13.1'
+  # gem 'rspec-rails', '2.13.1'
 end
 
 gem 'pg'
 
-group :production do
-  gem 'rails_12factor', '0.0.2'
-end
+
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
@@ -42,6 +40,10 @@ gem 'jbuilder', '~> 1.2'
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
+end
+
+group :production do
+  gem 'rails_12factor', '0.0.2'
 end
 
 ruby "2.1.0"
