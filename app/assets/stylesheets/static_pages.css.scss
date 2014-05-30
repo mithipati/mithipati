@@ -29,6 +29,53 @@
 }
 
 
+// Modal Styles
+
+.modal-body {
+  .project-title {
+    margin-top: -1rem;
+    margin-left: 2rem;
+      small {
+        margin-left: 1rem;
+      }
+  }
+  .webapp-preview {
+    margin-left: 1.5rem;
+  }
+  .list-item-one {
+    margin-top: -4rem;
+    margin-left: 7rem;
+      li {
+        margin-top: 2rem;
+        margin-left: 3rem;
+      }
+  }
+  .list-item-two {
+    margin-top: 10rem;
+    margin-left: 7rem;
+      li {
+        margin-top: 2rem;
+        margin-left: 3rem;
+      }
+  }
+  .detail-item {
+    margin-left: 2rem;
+  }
+  .detail {
+    margin-left: 4rem;
+  }
+  .btn.live-link, .btn.source-code {
+    height: 6rem !important;
+    width: 22rem !important;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    font-size: 2.5rem;
+  }
+  .btn.live-link {
+    margin-top: 1rem;
+  }
+}
+
 // Footer Styles
 
 footer {
