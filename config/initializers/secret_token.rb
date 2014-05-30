@@ -24,5 +24,5 @@ def secure_token
   end
 end
 
-SampleApp::Application.config.secret_key_base = secure_token
+Portfolio::Application.config.secret_key_base = secure_token
 # Portfolio::Application.config.secret_key_base = '487dc40dbb78f06dea3d3cf1db97f23e3426130615f963ea7d34ecc54884b9f3169572ce411c2e83e8a07a8660795d1d495d792a90690af00aa9c2d60e063792'
