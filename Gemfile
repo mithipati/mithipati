@@ -18,9 +18,8 @@ gem 'coffee-rails', '~> 4.0.0'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
-group :development, :test do
+group :development do
   gem 'sqlite3'
-  gem 'rspec-rails', '2.13.1'
 end
 
 group :production do
