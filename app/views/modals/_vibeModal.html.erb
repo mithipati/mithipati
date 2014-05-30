@@ -12,9 +12,11 @@
             </div>
           </div>
           <div class='col-md-6'>
-            <img class='webapp-preview' src="http://placehold.it/500x300">
+            <a href="http://vibeapp.us" target='_blank'>
+              <img class='webapp-preview' src="http://placehold.it/500x300">
+            </a>
           </div>
-          <div class='col-md-6'>
+          <div class='col-md-6 list-items'>
             <div class='list-item-one'>
               <ul>
                 <h2>Technology Stack</h2>
@@ -34,20 +36,26 @@
           <div class='row'>
             <div class='col-md-8'>
               <h2 class='detail-item'>Biggest Acheivement</h2>
-              <p class='detail'>Creating directives and using ngAnimate to produce animations throughout the DOM without jQuery.</p>
-              <h2 class='detail-item'>Biggest Challenge</h2>
               <p class='detail'>
                 Developing a method to adjust the user's playlist over time due to likes, skips, and similar artists/genres.
+              </p>
+              <h2 class='detail-item'>Biggest Challenge</h2>
+              <p class='detail'>
+                Creating directives and using ngAnimate to produce animations throughout the DOM without the use of jQuery.
               </p>
             </div>
             <div class='col-md-4'>
               <div class='row'>
-                  <button type='button' class='btn btn-success live-link'>
+                <form id='live-link'>
+                  <button type='submit' form='live-link' formtarget='_blank' formaction='http://vibeapp.us' class='btn btn-success live-link'>
                     <i class='fa fa-external-link'></i> Live Link
                   </button>
-                  <button type='button' class='btn btn-default source-code'>
+                </form>
+                <form id='source-code'>
+                  <button type='submit' form='source-code' formtarget='_blank' formaction='https://github.com/malls/vibe' class='btn btn-default source-code'>
                     <i class='fa fa-code'></i> Source Code
                   </button>
+                </form>
               </div>
             </div>
           </div>
