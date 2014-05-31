@@ -305,7 +305,7 @@
 
 						}
 
-						images[k].attr("src", <%= asset_path(list[k].attr("title")) %> );
+						images[k].attr("src", list[k].attr("title"));
 						list[k].removeAttr("title");
 
 					}
