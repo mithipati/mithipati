@@ -4,7 +4,11 @@
 // Universal
 
 body {
+  // background-image: url(http://andrewlaming.com.au/images/Build/background/background-animated.gif);
+  // background-repeat: no-repeat;
+  // background-position: center;
   background-image: url(http://i1.ytimg.com/vi/hPCotoawhk0/maxresdefault.jpg);
+  // background-image: url(http://wallpaperist.net/file/1777/kde-abstract-wallpaper-background-texture-bubbles-circles.jpg);
 }
 
 
@@ -54,6 +58,7 @@ body {
     max-width: 500px;
     max-height: 300px;
     box-shadow: 3px 3px 5px rgb(220,220,220);
+    border-radius: 1rem;
   }
   .list-item-one {
     margin-top: -6rem;
