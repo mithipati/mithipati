@@ -1,3 +1,7 @@
+PATH
+  remote: .
+  specs:
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -132,6 +136,7 @@ DEPENDENCIES
   bootstrap-sass (~> 3.1.1)
   coffee-rails (~> 4.0.0)
   font-awesome-sass
+  i18n!
   jbuilder (~> 1.2)
   jquery-rails
   pg
