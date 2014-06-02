@@ -19,7 +19,7 @@ var zoomShowcaseSettings = {
   sideOpacity: 0.3,
 
   /* Choose to set the Slideshow to auto-play, true/false */
-  autoPlay: true,
+  autoPlay: false,
 
   /* The autoPlay delay in milliseconds */
   autoPlayDelay: 3000,

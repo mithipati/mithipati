@@ -45,6 +45,7 @@
 		var modal = $this.data('link');
 
 		($this.data("target") === "_parent") ? window.location = $this.data("link") : $(modal).modal();
+		console.log("");
 		// ($this.data("target") === "_parent") ? window.location = $this.data("link") : window.open($this.data("link"));
 
 	}
