@@ -12,12 +12,17 @@
 		var curImg = $(this).data("image");
 		curImg.fadeTo(200, 0.4);
 		curImg.css('background-color', 'grey');
+		$('.info-icon').fadeTo(250, 1);
+		$('.info-icon').on('mouseover', function (){
+
+		});
 	}
 
 	function	infoOut(event) {
 		var curImg = $(this).data("image");
 		curImg.fadeTo(200, 1);
 		curImg.css('background-color', 'none');
+		$('.info-icon').fadeTo(250, 0);
 	}
 
 	function out(event) {
