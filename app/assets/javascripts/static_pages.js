@@ -10,22 +10,22 @@ var zoomShowcaseSettings = {
   bannerWidth: 980,
 
   /* The speed of the shuffle animation in milliseconds */
-  animationSpeed: 350,
+  animationSpeed: 450,
 
   /* Options are "easeOutQuint", "easeInOutQuint", "easeOutQuad" and "easeInOutQuad",  */
-  easing: "easeOutQuint",
+  easing: "easeOutQuad",
 
   /* The opacity of the side items, 0-1 */
   sideOpacity: 0.3,
 
   /* Choose to set the Slideshow to auto-play, true/false */
-  autoPlay: false,
+  autoPlay: true,
 
   /* The autoPlay delay in milliseconds */
-  autoPlayDelay: 4000,
+  autoPlayDelay: 3000,
 
   /* Choose to randomize the slide order everytime someone visits your web page, true/false */
-  randomizeItems: true,
+  randomizeItems: false,
 
   /* The link target when a slide is linked, options are "_parent" and "_blank" */
   linkTarget: "_blank",

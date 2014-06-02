@@ -15,11 +15,20 @@
 		$('.info-icon').fadeTo(250, 1);
 	}
 
+	function infoInStatic(event) {
+		var curImg = $(this).data("image");
+
+		if (curImg.css('background-color') !== 'grey') {
+			curImg.stop(true, true).fadeTo(250, 0.4).css('background-color', 'grey');
+			$('.info-icon').stop(true, true).fadeTo(250, 1);
+		}
+	}
+
 	function	infoOut(event) {
 		var curImg = $(this).data("image");
-		curImg.fadeTo(200, 1);
+		curImg.stop(true, true).fadeTo(200, 1);
 		curImg.css('background-color', 'none');
-		$('.info-icon').fadeTo(250, 0);
+		$('.info-icon').stop(true, true).fadeTo(250, 0);
 	}
 
 	function out(event) {
@@ -465,11 +474,13 @@
 
 				list[toLeft].unbind('mouseenter', infoIn);
 				list[toLeft].unbind('mouseleave', infoOut);
+				list[toLeft].unbind('mousemove', infoInStatic);
 				list[toLeft].css("cursor", "pointer").mouseenter(over).mouseleave(out).animate({left: 0, top: sideY, width: halfW, height: halfH}, speed, easing);
 				images[toLeft].animate({width: halfW, height: halfH, opacity: sideOpacity}, speed, easing);
 
 				list[toRight].unbind('mouseenter', infoIn);
 				list[toRight].unbind('mouseleave', infoOut);
+				list[toRight].unbind('mousemove', infoInStatic);
 				list[toRight].css("cursor", "pointer").mouseenter(over).mouseleave(out).animate({left: rightX, top: sideY, width: halfW, height: halfH}, speed, easing);
 				images[toRight].animate({width: halfW, height: halfH, opacity: sideOpacity}, speed, easing);
 
@@ -503,6 +514,7 @@
 				if(list[isOn].data("link")) {
 					list[isOn].on('mouseenter', infoIn);
 					list[isOn].on('mouseleave', infoOut);
+					list[isOn].on('mousemove', infoInStatic);
 					list[isOn].css("cursor", "pointer").click(gotoURL);
 				}
 				isRunning = false;
