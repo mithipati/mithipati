@@ -13,9 +13,6 @@
 		curImg.fadeTo(200, 0.4);
 		curImg.css('background-color', 'grey');
 		$('.info-icon').fadeTo(250, 1);
-		$('.info-icon').on('mouseover', function (){
-
-		});
 	}
 
 	function	infoOut(event) {
