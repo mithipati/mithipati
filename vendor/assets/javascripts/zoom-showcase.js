@@ -5,6 +5,7 @@
 	function over(event) {
 
 		// $(this).data("image").fadeTo(300, 1);
+		$('.arrow').fadeTo(300, 1);
 
 	}
 
@@ -35,7 +36,8 @@
 
 		var $this = $(this);
 
-		$this.data("image").stop(true, true).fadeTo(250, $this.data("sideOpacity"));
+		$('.arrow').fadeTo(300, 0);
+		// $this.data("image").stop(true, true).fadeTo(250, $this.data("sideOpacity"));
 
 	}
 
@@ -401,6 +403,7 @@
 
 			function clickLeft(event) {
 
+				$('.arrow').fadeTo(100, 0);
 				if(timer) clearTimeout(timer);
 				readyToFire = false;
 
@@ -421,6 +424,7 @@
 
 			function clickRight(event) {
 
+				$('.arrow').fadeTo(100, 0);
 				if(timer) clearTimeout(timer);
 				readyToFire = false;
 
