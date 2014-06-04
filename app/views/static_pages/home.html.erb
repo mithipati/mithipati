@@ -5,7 +5,8 @@
 
 <!-- Icons -->
 <div class='mail-icon'>
-  <img src="http://james-milton.com/img/mail_icon1000.png">
+  <%= mail_to "neil.mithipati@gmail.com", raw(image_tag("http://james-milton.com/img/mail_icon1000.png")),
+         subject: "Let's Talk", target: "_blank" %>
 </div>
 <div class="info-icon">
   <i class='fa fa-info-circle'></i>
