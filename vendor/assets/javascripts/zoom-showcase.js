@@ -5,7 +5,7 @@
 	function over(event) {
 
 		// $(this).data("image").fadeTo(300, 1);
-		$('.arrow').fadeTo(300, 1);
+		$('.arrow').fadeTo(200, 1);
 
 	}
 
@@ -36,7 +36,7 @@
 
 		var $this = $(this);
 
-		$('.arrow').fadeTo(300, 0);
+		$('.arrow').fadeTo(200, 0);
 		// $this.data("image").stop(true, true).fadeTo(250, $this.data("sideOpacity"));
 
 	}
