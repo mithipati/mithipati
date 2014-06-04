@@ -28,6 +28,7 @@ body {
 .name_header {
   font-family: 'walkway', sans-serif;
   font-size: 8rem;
+  color: #3F3F3F;
   margin-left: 3rem;
   display: inline-block;
 }
@@ -36,6 +37,7 @@ body {
   font-family: 'walkway', sans-serif;
   font-weight: bold;
   font-size: 3rem;
+  color: #3F3F3F;
   margin-left: 2rem;
   display: inline-block;
 }
@@ -44,8 +46,9 @@ body {
 // Gallery Styles
 
 .zoom-gallery {
-  margin-top: 5rem;
+  margin-top: 4rem;
   margin-left: 14rem;
+  position: fixed;
 }
 
 .zoom-gallery-info-text {
@@ -118,15 +121,15 @@ body {
     border-radius: 0.5rem;
   }
   .list-item-one {
-    margin-top: -6rem;
-    margin-left: 8rem;
+    margin-top: -3.5rem;
+    margin-left: -15.5rem;
       li {
         margin-left: 4rem;
       }
   }
   .list-item-two {
-    margin-top: 18rem;
-    margin-left: 8rem;
+    margin-top: 17rem;
+    margin-left: -15.5rem;
       li {
         margin-left: 4rem;
       }
@@ -158,16 +161,25 @@ footer {
 .footer_links, ul {
   list-style: none;
   position: fixed;
-  margin-top: 5rem;
-  vertical-align: center;
+  margin-top: 2rem;
+  margin-left: 26%;
+  vertical-align: middle;
   .social_link {
     float: left;
-    margin-left: 15rem;
-    font-size: 5rem;
-    font-family: sans-serif;
+    margin-left: 8rem;
       a {
-        font-family: 'Lato', sans-serif;
         text-decoration: none;
-    }
+        color: #3F3F3F !important;
+          i {
+            font-size: 7rem;
+          }
+          small {
+            font-family: 'Lato', sans-serif;
+            font-size: 2rem;
+          }
+      }
+      a:hover {
+        color: #545454 !important;
+      }
   }
 }
