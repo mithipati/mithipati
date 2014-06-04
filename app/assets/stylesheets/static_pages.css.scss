@@ -113,7 +113,7 @@ body {
 
 // Modal Styles
 .modal-content {
-  background-color: rgb(240,240,240) !important;
+  background-color: rgb(245,245,245) !important;
 }
 
 .modal-body {
@@ -123,6 +123,7 @@ body {
     margin-left: 2rem;
       small {
         margin-left: 1rem;
+        color: rgb(123,123,123) !important;
       }
   }
   .webapp-preview {
