@@ -40,9 +40,10 @@ body {
 // Gallery Styles
 
 .zoom-gallery {
-  margin-top: 4rem;
-  margin-left: 14rem;
-  position: fixed;
+  margin-top: 3rem;
+  position: absolute;
+  left: 50%;
+  margin-left: -490px;
 }
 
 .zoom-gallery-info-text {
@@ -87,7 +88,7 @@ body {
 .arrow-left {
   position: absolute;
   margin-top: 15%;
-  margin-left: 13%;
+  margin-left: 16%;
   z-index: 4;
   opacity: 0;
   pointer-events: none;
@@ -101,7 +102,7 @@ body {
 .arrow-right {
   position: absolute;
   margin-top: 15%;
-  margin-left: 80%;
+  margin-left: 78%;
   z-index: 4;
   opacity: 0;
   pointer-events: none;
@@ -169,18 +170,17 @@ body {
 // Footer Styles
 
 footer {
-  width: 100%;
 }
 
-.footer_links, ul {
+ul.footer_links {
+  position: absolute;
+  margin-left: -300px;
+  left: 50%;
   list-style: none;
-  position: fixed;
   margin-top: 2rem;
-  margin-left: 26%;
-  vertical-align: middle;
   .social_link {
     float: left;
-    margin-left: 8rem;
+    margin-left: 80px;
       a {
         text-decoration: none;
         color: #3F3F3F !important;
