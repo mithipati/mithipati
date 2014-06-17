@@ -167,6 +167,11 @@ body {
   }
   .btn.live-link {
     margin-top: 4rem;
+    background-color: rgb(123,123,123);
+    border-color: rgb(123,123,123);
+  }
+  .btn.live-link:hover {
+    background-color: rgb(153,153,153);
   }
 }
 
