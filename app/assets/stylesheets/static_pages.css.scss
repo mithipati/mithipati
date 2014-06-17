@@ -56,8 +56,9 @@ body {
 
 .info-icon {
   position: absolute;
-  margin-top: 14%;
-  margin-left: 46%;
+  margin-top: 165px;
+  margin-left: -40px;
+  left: 50%;
   z-index: 4;
   opacity: 0;
   pointer-events: none;
@@ -87,8 +88,9 @@ body {
 
 .arrow-left {
   position: absolute;
-  margin-top: 15%;
-  margin-left: 16%;
+  margin-top: 170px;
+  margin-left: -420px;
+  left: 50%;
   z-index: 4;
   opacity: 0;
   pointer-events: none;
@@ -101,8 +103,9 @@ body {
 
 .arrow-right {
   position: absolute;
-  margin-top: 15%;
-  margin-left: 78%;
+  margin-top: 170px;
+  margin-right: -420px;
+  right: 50%;
   z-index: 4;
   opacity: 0;
   pointer-events: none;
@@ -136,15 +139,15 @@ body {
     border-radius: 0.5rem;
   }
   .list-item-one {
-    margin-top: -3.5rem;
-    margin-left: -15.5rem;
+    margin-top: -1.5rem;
+    margin-left: 6.5rem;
       li {
         margin-left: 4rem;
       }
   }
   .list-item-two {
-    margin-top: 17rem;
-    margin-left: -15.5rem;
+    margin-top: 3rem;
+    margin-left: 6.5rem;
       li {
         margin-left: 4rem;
       }
