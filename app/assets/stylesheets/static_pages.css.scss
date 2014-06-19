@@ -139,10 +139,7 @@ body {
     border-radius: 0.5rem;
   }
   .sample-login {
-    border-radius: 100%;
-    width: 50px;
-    height: 50px;
-    background-color: blue;
+    font-family: 'Lato', sans-serif;
   }
   .list-item-one {
     margin-top: -1.5rem;
@@ -173,11 +170,11 @@ body {
   }
   .btn.live-link {
     margin-top: 4rem;
-    background-color: rgb(123,123,123);
+    background-color: rgb(143,143,143);
     border-color: rgb(123,123,123);
   }
   .btn.live-link:hover {
-    background-color: rgb(153,153,153);
+    background-color: rgb(113,113,113);
   }
 }
 

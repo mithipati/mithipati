@@ -45,6 +45,21 @@ jQuery(document).ready(function() {
 
   jQuery(".zoom-gallery").zoomShowcase(zoomShowcaseSettings);
 
+  $('.live-link').popover({
+    trigger: 'hover',
+    placement: 'top',
+    container: 'body',
+    html: true,
+    title: '<h3>Sample Login</h3>',
+    content: function () {
+      if ( $(this).data('app') === 'vibe' ) {
+        return '<h4>Username: test@test.com</h4> \n <h4>Password: test</h4>'
+      } else {
+        return '<h4>Username: test@test.com</h4> \n <h4>Password: testsample</h4>'
+      }
+    }
+  });
+
 
   // ------------------------------------
   // ZOOM SHOWCASE API FOR ADVANCED USERS
