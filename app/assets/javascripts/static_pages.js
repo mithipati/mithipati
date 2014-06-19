@@ -45,7 +45,7 @@ jQuery(document).ready(function() {
 
   jQuery(".zoom-gallery").zoomShowcase(zoomShowcaseSettings);
 
-  $('.live-link').popover({
+  $('.live-link.login-link').popover({
     trigger: 'hover',
     placement: 'top',
     container: 'body',
